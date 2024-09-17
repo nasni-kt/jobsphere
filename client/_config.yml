@@ -22,4 +22,3 @@ exclude:
   - package.json
   - package-lock.json
   - webpack.config.js
-source: client
