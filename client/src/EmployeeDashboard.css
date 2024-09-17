@@ -1,0 +1,154 @@
+/* EmployeeDashboard.css */
+.form-container {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+.form-input {
+  border-radius: 0.375rem;
+  box-shadow: none;
+  height: 60px; /* Increase input height */
+}
+
+.form-input:focus {
+  /* border-color: #366494; */
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+button {
+  border-radius: 0.375rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+/* EmployeeDashboard.css */
+
+.form-container {
+  background-color: #f9f9f9;
+  border: 1px solid #f9f4f4;
+  border-radius: 8px;
+}
+
+.form-input {
+  height: 50px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.submitted-data {
+  /* background-color: #fafcff; */
+  border: 1px solid #fffbfb;
+  border-radius: 8px;
+}
+
+.submitted-data h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.submitted-data div {
+  font-size: 16px;
+}
+
+button.w-100 {
+  width: 90%;
+}
+
+
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  right: 20px; /* Adjust as needed */
+  font-size: 1.2em;
+  color: #7b7bc4ef; /* Adjust color as needed */
+}
+
+.form-control {
+  padding-left: 40px; /* Ensure there is enough padding for the icon */
+}
+
+
+/* EmployeeDashboard.css */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-item {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s;
+}
+
+.sidebar-item:hover {
+  background-color: #e9ecef;
+}
+
+.form-container, .submitted-data {
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+/* -------------------------------------- */
+.post-job-section,.posted-jobs-section,.submitted-data
+{
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.post-job-title {
+  color: #5A5EAB;
+  font-weight: 700;
+}
+
+.form-container {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+}
+
+.form-input {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.post-job-button {
+  background-color: #7878b9ef;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.post-job-button:hover {
+  background-color: #5a5eab;
+}

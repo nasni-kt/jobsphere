@@ -1,0 +1,24 @@
+title: Your awesome title
+email: your-email@example.com
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/jobsphere" # replace 'jobsphere' with your repository name
+url: "https://nasni-kt.github.io" # replace 'nasni-kt' with your GitHub username
+twitter_username: jekyllrb
+github_username: nasni-kt # replace with your GitHub username
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude settings
+exclude:
+  - node_modules
+  - build
+  - public
+  - package.json
+  - package-lock.json
+  - webpack.config.js
