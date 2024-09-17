@@ -24,5 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
+# Environment variablesMove-Item index.html docs/
+
 .env
